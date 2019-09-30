@@ -1,0 +1,41 @@
+
+.backgroud-gradient{
+    height: 100vh;
+    position: absolute;
+    background-color: blue;
+    background: linear-gradient(31deg, #000000, #083e89);
+    background-size: 400% 400%;
+    
+    -webkit-animation: BackgroundAnimation 11s ease infinite;
+    -moz-animation: BackgroundAnimation 11s ease infinite;
+    -o-animation: BackgroundAnimation 11s ease infinite;
+    animation: BackgroundAnimation 11s ease infinite;
+}
+
+
+.arrow{
+    color: #428bca;
+    cursor: pointer;    
+}
+
+
+@-webkit-keyframes BackgroundAnimation {
+    0%{background-position:0% 81%}
+    50%{background-position:100% 20%}
+    100%{background-position:0% 81%}
+}
+@-moz-keyframes BackgroundAnimation {
+    0%{background-position:0% 81%}
+    50%{background-position:100% 20%}
+    100%{background-position:0% 81%}
+}
+@-o-keyframes BackgroundAnimation {
+    0%{background-position:0% 81%}
+    50%{background-position:100% 20%}
+    100%{background-position:0% 81%}
+}
+@keyframes BackgroundAnimation { 
+    0%{background-position:0% 81%}
+    50%{background-position:100% 20%}
+    100%{background-position:0% 81%}
+}

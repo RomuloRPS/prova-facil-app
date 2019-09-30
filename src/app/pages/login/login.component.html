@@ -1,0 +1,27 @@
+<div class="backgroud-gradient w-100 h-100">
+
+    <div class="container">
+        
+        <div class="col-8 offset-2 card mt-5 text-center">
+                <fa class  (click)="toType()" name="arrow-left" size='2x' class=" col-1 arrow text-left mt-3 arrow"></fa>
+                <img src="https://desenrolaa.com.br/wp-content/uploads/2017/11/test.png" style="margin:auto;height: 100px; width: 100px;" class="mt-5" >
+                <h2 class=" mt-2"><strong>Prova Fácil</strong></h2>
+
+                <h4 *ngIf="userType == 'professor'" class="font-italic mt-2">Professor</h4>
+                <h4 *ngIf="userType == 'aluno'" class="font-italic mt-2">Aluno</h4>
+
+            <div class="col-6 offset-3 input-group mb-3 mt-5">
+                <input type="text" class="form-control" placeholder="Login" aria-label="Login" aria-describedby="basic-addon2">
+            </div>
+
+            <div class="col-6 offset-3 input-group mb-3">
+                <input type="password" class="form-control" placeholder="Senha">
+                
+            </div>
+
+            <button class="btn btn-primary col-4 offset-4 mb-5 mt-3"><fa name="sign-in"></fa> Logar</button>
+
+        </div>
+
+    </div>
+</div>
