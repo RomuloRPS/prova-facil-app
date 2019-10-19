@@ -7,17 +7,22 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { LoginComponent } from './pages/login/login.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { UserTypeComponent } from './pages/user-type/user-type.component';
+import { TestComponent } from './pages/test/test.component';
+import {AutosizeModule} from 'ngx-autosize';
+
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    UserTypeComponent
+    UserTypeComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    AngularFontAwesomeModule
+    AngularFontAwesomeModule,
+    AutosizeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

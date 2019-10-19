@@ -27,4 +27,8 @@ export class LoginComponent implements OnInit {
     this.route.navigate(['/'])
   }
 
+  login(){
+    this.route.navigate(['/prova']);
+  }
+
 }
